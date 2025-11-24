@@ -1,0 +1,195 @@
+.final{
+    background: linear-gradient(#563d7c,#212529);
+   
+    /* padding-bottom: 15%; */
+    padding-top: 10%;
+    
+}
+
+.mydata{
+     display:flex;
+     flex-direction: column;
+     width:500px ;
+     /* margin-left:10%; */
+     padding:20px;
+     border:none;
+     border-radius: 20px;
+     background-color:white;
+     color:#081950;
+}    
+.form{
+    display: flex;
+    flex-direction: column;
+   
+}
+.sign{
+    text-align: center;
+    color: #081950;
+}
+.form input{
+    margin-top: 10px;
+    padding:10px
+}
+.position{
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+    padding: 10px;
+    background-color: #081950;
+    border-radius: 30px;
+    /* color: white; */
+
+}
+.btn:hover{
+    background-color:#3aafa9;
+}
+.insidebtn{
+    margin-left: 45%;
+    background-color: #081950;
+    color: white;
+    border: none;
+}
+.insidebtn:hover{
+    background-color: #3aafa9;
+}
+
+.Login p{
+ text-align: center;
+}
+ 
+
+
+
+
+@media (max-width: 576px) {
+    .final {
+        display: flex;
+        flex-direction: column;
+         background: linear-gradient (#3aafa9,#5B5EA6,white);
+        width: 100vw;
+        height:75vh;
+    }
+
+     
+    
+    .mydata {
+        width: 85%;
+        margin-left:10px;
+       
+    }
+   
+    .form input{
+        font-size: 150%;
+}
+   .btn{
+    font-size: 150%;
+
+}
+
+
+    
+}
+@media (max-width:768px) and (min-width:576px){
+     .final {
+        display: flex;
+        flex-direction:column;
+         background: linear-gradient(#563d7c,#212529);
+        width: 100vw;
+        height:100vh;
+    }
+
+   
+    .mydata {
+        width:85%;
+        margin-left:10px;
+        margin-right:20px;
+        
+        
+    }
+
+     
+    .form input{
+        font-size: 120%;
+}
+.btn{
+    font-size: 150%;
+
+}
+
+   
+}
+
+@media (max-width:992px) and (min-width:768px){
+     .final {
+        flex-direction: column;
+         background: linear-gradient (#3aafa9,#5B5EA6,white);
+        width: 100vw;
+        height:100vh;
+    }
+
+   
+    .mydata {
+        
+        width:85%;
+        margin-left:20px;
+        margin-right: 10px;
+        
+        
+    }
+
+    
+    .form input{
+        font-size: 150%;
+}
+.btn{
+    font-size: 150%;
+
+}
+}
+
+ @media (max-width:1200px) and (min-width:992px){
+     .final {
+        flex-direction:column;
+        background: linear-gradient (#3aafa9,#5B5EA6,white);
+        width: 100vw;
+        height:75vh;
+    }
+
+   
+    .mydata {
+      
+        width:90%;
+        margin-left: 0;
+        
+    }
+
+     
+    .form input{
+        font-size: 150%;
+}
+.btn{
+    font-size: 150%;
+
+}
+} 
+
+@media  (min-width:1200px){
+    
+     .final{
+        background: linear-gradient (#3aafa9,#5B5EA6,white);
+        width: 100vw;
+        height:75vh;
+    
+     }
+   
+    .mydata { 
+        width:40%;
+        margin-left: 0;
+        padding-bottom: 30px;
+        margin-right:500px;
+        float:inline-end;
+    }
+
+     
+}

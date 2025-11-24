@@ -1,0 +1,76 @@
+.all div{
+      display: flex;
+      flex-direction:row;
+}
+
+.footer {
+   
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 5%;
+    margin-top: 20px;
+}
+.one p{
+      margin-top: 20px;
+}
+
+@media (max-width:576px){
+      .footer {
+   
+           display: flex;
+           flex-direction:row;
+           float: right;
+           margin-right:0;
+           margin-bottom: 5%;
+           margin-left: 0;
+           flex-wrap:wrap
+}
+
+.one p{
+      margin-top: 20px;
+}
+
+.all div{
+      display: flex;
+      flex-direction:column;
+}
+
+
+}
+
+@media (min-width:576px) and (max-width:768px){
+      .footer {
+   
+           display: flex;
+           flex-direction: row;
+          justify-content: flex-end;
+           margin-right:0;
+           margin-left: 0;
+           margin-bottom: 5%;
+}
+}
+
+@media (min-width:768px) and (max-width:992px){
+      .footer {
+   
+           display: flex;
+           flex-direction: row;
+           float: right;
+           margin-right:0;
+           margin-bottom: 5%;
+}
+}
+
+@media (min-width:992px) and (max-width:1200px){
+      .footer {
+   
+           display: flex;
+           flex-direction: row;
+           float: right;
+           margin-right:0;
+           margin-bottom: 5%;
+}
+}

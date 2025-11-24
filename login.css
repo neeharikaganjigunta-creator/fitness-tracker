@@ -1,0 +1,175 @@
+.final{
+    background: linear-gradient( #081950,#3AAFA9,#FEFFFF);
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding-bottom: 20%;
+    padding-top: 10%;
+    
+}
+
+.mydata{
+    margin-top: 40px;
+     display:flex;
+     flex-direction: column;
+     width:600px ;
+     margin-left:27%;
+     padding:20px;
+     border:none;
+     border-radius: 20px;
+     background-color: aliceblue;
+     order: 2;
+     box-shadow: 1px 1px 5px black;
+}    
+.form{
+    display: flex;
+    flex-direction: column;
+   
+}
+.sign{
+    text-align: center;
+    color: #081950;
+}
+.form input{
+    margin-top: 30px;
+    padding:10px
+}
+.position{
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+    padding: 10px;
+    background-color:#15dae3;
+    border-radius: 30px;
+    border:none;
+    width: 100%;
+    font-weight: bold;
+    font-size: medium;
+    box-shadow: 1px 1px 1px #081950;
+}
+.btn:hover{
+    background-color:#7bd4d8cc;
+}
+
+.Login p{
+ text-align: center;
+}
+.image{
+    transform: translateY(-385px);
+    margin-left: 30px;
+    top: 20%;
+    border-radius: 30px;
+}
+
+
+
+
+@media (max-width: 576px) {
+    .final {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .image {
+       
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-top: 100%;
+    }
+    
+    .mydata {
+        width: 85%;
+        margin-left: 0;
+       
+    }
+
+    
+}
+@media (max-width:768px) and (min-width:576px){
+     .final {
+        display: flex;
+        flex-direction:column-reverse;
+    }
+
+   
+    .mydata {
+        width:95%;
+        margin-left: 0;
+        
+        
+    }
+
+    .image {
+       
+        width:95%;
+        height: auto;
+        margin-bottom: 40px;
+        margin-top: 70%;
+    }
+}
+
+@media (max-width:992px) and (min-width:768px){
+     .final {
+        flex-direction: column-reverse;
+    }
+
+   
+    .mydata {
+        
+        width:95%;
+        margin-left: 0;
+        
+    }
+
+    .image {
+        
+        width:95%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-top:50%;
+    }
+}
+
+ @media (max-width:1200px) and (min-width:992px){
+     .final {
+        flex-direction:column-reverse;
+    }
+
+   
+    .mydata {
+      
+        width:95%;
+        margin-left: 0;
+        
+    }
+
+    .image {
+        
+        width:95%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-top:50%;
+    }
+} 
+
+@media (max-width:1400px) and (min-width:1200px){
+    
+
+   
+    .mydata { 
+        width:40%;
+        margin-left: 0;
+        padding-bottom: 30px;
+        right:0;
+        float:inline-end;
+    }
+
+    .image {
+        transform: translateY(-600px);
+        width:50%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-top:50%;
+    }
+}

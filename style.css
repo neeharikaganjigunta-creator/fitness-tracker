@@ -1,0 +1,48 @@
+
+ 
+.topbar {
+    height: 55px;
+    background:linear-gradient(#563d7c,#212529);
+    
+}
+.back-arrow {
+    font-size: 26px;
+    color: var(--dark);
+    cursor: pointer;
+}
+.edit-btn {
+    width: 40px;
+}
+
+/* LIST SECTIONS (same as Fitbit style) */
+.list-section {
+    margin-top: 10px;
+}
+
+.list-item {
+    padding: 15px 10px;
+    border-bottom: 1px solid #563d7c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-title {
+    font-size: 17px;
+    color:#212529;
+    font-weight: 600;
+    margin: 0;
+}
+
+.item-sub {
+    font-size: 13px;
+    color:#2B7A78;
+    margin: 0;
+}
+
+.plus-btn {
+    font-size: 22px;
+    color:#212529;
+    font-weight: bold;
+    cursor: pointer;
+}

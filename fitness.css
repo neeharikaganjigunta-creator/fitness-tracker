@@ -1,0 +1,21 @@
+#navbarNav{
+margin-left: 70%;
+}
+.navbar{
+    background:linear-gradient(#563d7c,#212529);
+    color: #d3d3ff;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    color:#563d7c;
+}
+.para{
+    margin-left: 10%;
+    color:#563d7c;
+}
+.heading{
+    color:#212529;
+}

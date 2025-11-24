@@ -1,0 +1,176 @@
+.data{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin-right:30%;
+    padding-bottom: 20px;
+    padding: 30px;
+    margin-left: 30%;
+    margin-top: 10%;
+    box-shadow: 1px 1px 5px black;
+
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.one input{
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.position{
+    display: flex;
+    flex-direction: row;
+    font-size: 150%;
+}
+
+.btn{
+    border:none;
+    box-shadow: 1px 1px 2px black;
+    padding:10px;
+    width: 97%;
+    text-align: center;
+    background-color:#18a2d9;
+    font-size: 150%;
+    border-radius: 20px;
+    color: white;
+}
+.btn:hover{
+    background-color:#1034a6;
+}
+.final{
+    background:linear-gradient(#1034a6,#15dae3,white);
+    padding-bottom:20%;
+    padding-top: 5%;
+}
+
+@media(max-width:576px){
+    
+.data{
+    margin-right:10%;
+    margin-left: 10%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.one input{
+     margin-top: 20px;
+     padding: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     font-size: 150%;
+}
+.one {
+   
+    width:98%;
+}
+.btn{
+    width: 95%;
+    font-size: 150%;
+}
+.position{
+    
+    font-size: 150%;
+}
+   
+   
+}
+
+@media(min-width:576px) and (max-width:768px){
+    
+.data{
+    margin-right:5%;
+    margin-left: 5%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.one input{
+     margin-top: 20px;
+     padding: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     font-size: 150%;
+     
+}
+.one {
+   
+    width: 100%;
+}
+.btn{
+    width:90%;
+    padding: 20px;
+    font-size: 150%;
+}
+.position{
+    
+    font-size: 150%;
+}
+   
+   
+}
+
+@media(min-width:768px) and (max-width:992px){
+    
+.data{
+    margin-right:10%;
+    margin-left: 10%;
+    padding: 70px;
+}
+.one input{
+     margin-top: 20px;
+     padding:20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     font-size: 150%;
+     
+}
+.one {
+   
+    width: 105%;
+}
+.btn{
+    width: 100%;
+    font-size: 150%;
+}
+.position{
+    
+    font-size: 150%;
+}
+   
+}
+
+@media(min-width:992px) and (max-width:1400px){
+    
+.data{
+    margin-right:20%;
+    margin-left:20%;
+   
+}
+.one input{
+     margin-top: 20px;
+     padding: 30px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     font-size: 150%;
+}
+.one {
+    width:97%;
+}
+.btn{
+    width:90%;
+    padding: 30px;
+    font-size: 150%;
+}
+.position{
+    
+    font-size: 150%;
+}
+   
+}
+

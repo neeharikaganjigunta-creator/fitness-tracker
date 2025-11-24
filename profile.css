@@ -1,0 +1,200 @@
+.all{
+    background: linear-gradient(#3aafa9,#5B5EA6,white);
+}
+
+
+.final{
+    margin-top: 40px;
+    border:none;
+    padding-left: 10px;
+    margin-left: 20%;
+    margin-right: 15%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background:#081950;
+    color:#3aafa9;
+    font-size: 130%;
+}
+
+.final input:hover{
+    background-color:#3aafa9;
+}
+.image{
+    margin-left: 45%;
+    width: 70px;
+    height: 70px;
+    margin-bottom:40px ;
+}
+
+
+
+.data {
+    display: flex;
+    flex-direction:column;
+    column-gap: 60px;
+    margin-left: 25%;
+   
+}
+.data input{
+    width: 65%;
+    height: 20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    border:none;
+    border-radius: 20px;
+    padding: 10px;
+    
+
+}
+/* .data input:hover{
+    background-color: azure;
+} */
+.name{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.name label{
+    margin-top: 10px;
+    
+}
+.name input{
+    margin-right:20px;
+    border:none;
+    border-radius: 20px;
+    padding: 10px;
+}
+/* .name input:hover{
+    background-color: bisque;
+} */
+.btn{
+    margin-left: 25%;
+    padding: 10px;
+    width: 50%;
+    border:none;
+    background-color:#3aafa9;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px white;
+
+}
+.btn:hover{
+    background-color:#3f57a8;
+}
+@media (max-width:576px){
+.final{
+    margin-top: 40px;
+    padding-left: 10px;
+    margin-left:0;
+    margin-right:0;
+    padding-top: 10px;
+    font-size: 200%;
+    padding-right: 0;
+}
+.name{
+    display: flex;
+    flex-direction:column;
+    width:70%;
+}
+
+.data input{
+    width:85%;
+}
+
+.btn{
+     width:70%;
+}
+}
+
+@media (min-width:576px) and (max-width:768px){
+.final{
+    margin-top: 40px;
+    padding-left: 10px;
+    margin-left:0;
+    margin-right:0;
+    padding-top: 10px;
+    font-size: 200%;
+    padding-right: 0;
+}
+.name{
+    display: flex;
+    flex-direction:column;
+    width:68%;
+}
+
+.data input{
+    width:85%;
+    font-size:50% ;
+}
+
+.name input{
+   font-size: 50%;
+}
+.btn{
+    width:70%;
+}
+}
+
+
+@media (min-width:768px) and (max-width:1200px){
+.final{
+    margin-top: 40px;
+    padding-left: 10px;
+    margin-left:0;
+    margin-right:0;
+    padding-top: 10px;
+    font-size: 250%;
+    padding-right: 0;
+}
+.name{
+    display: flex;
+    flex-direction:column;
+    width:68%;
+}
+
+.data input{
+    width:85%;
+    font-size:60% ;
+}
+
+.name input{
+   font-size: 60%;
+}
+.btn{
+    width:65%;
+    font-size: 50%;
+}
+}
+
+
+@media (min-width:1200px) and (max-width:1400px){
+.final{
+    margin-top: 40px;
+    padding-left: 10px;
+    margin-left:50px;
+    margin-right:50px;
+    padding-top: 10px;
+    font-size: 250%;
+    padding-right: 0;
+}
+.name{
+    display: flex;
+    flex-direction:column;
+    width:68%;
+}
+
+.data input{
+    width:85%;
+    font-size:60% ;
+}
+
+.name input{
+   font-size: 60%;
+}
+.btn{
+    width:65%;
+    font-size: 50%;
+}
+}
